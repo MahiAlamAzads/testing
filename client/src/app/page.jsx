@@ -64,7 +64,7 @@ export default function Home() {
         { step: '4', label: 'Retail', icon: '🏪' },
         { step: '5', label: 'Consumer', icon: '👤' },
     ];
-    return (<div className="w-4 scrollbar-hide min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
+    return (<div className="w-full scrollbar-hide min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
       {/* Header */}
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
