@@ -1,0 +1,19 @@
+{
+  "name": "supply-chain-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-based Supply Chain Management System",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:ganache": "hardhat run scripts/deploy.js --network ganache",
+    "deploy:ganache5777": "hardhat run scripts/deploy.js --network ganache5777",
+    "node": "hardhat node",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.27.1"
+  }
+}
